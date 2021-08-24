@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background: black;
+				display: flex;
+				width: 90vw;
+				height: 90vh;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas width="500" height="500" style="background:#111111" id="gc"></canvas>
+		<input type="range" min="1" max="400" value="50" class="slider" id="mySlider" oninput="redo()"/>
+		<script src="treecode.js"></script>
+	</body>
+</html>
